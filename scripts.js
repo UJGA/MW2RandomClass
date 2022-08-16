@@ -1,6 +1,6 @@
 var primarysArray = [
   {
-    name: "725",
+    name: "AK-47",
   },
 ];
 
@@ -817,6 +817,7 @@ function random_item() {
   //-------------------------------------------------------------------------
 
   document.getElementById("killstreaks").innerHTML = "Killstreaks";
+  console.log("Hit the above line");
 
   document.getElementById("ks1").innerHTML = "";
   document.getElementById("ks2").innerHTML = "";
