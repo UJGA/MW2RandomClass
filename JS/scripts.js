@@ -1,12 +1,70 @@
 var primarysArray = [
   {
-    name: "AK-47",
+    name: "KASTOV-74U",
   },
+  {
+    name: "M16",
+  },
+  {
+    name: "M4",
+  },
+  {
+    name: "TAQ-56",
+  },
+  {
+    name: "FTAC RECON",
+  },
+  {
+    name: "LACHMANN-762",
+  },
+  {
+    name: "FENNEC 45",
+  },
+  {
+    name: "FSS HURRICANE",
+  },
+  {
+    name: "LACHMANN SUB",
+  },
+  {
+    name: "556 ICARUS",
+  },
+  {
+    name: "RAPP H",
+  },
+  {
+    name: "EXPEDITE 12",
+  },
+  {
+    name: "LM-S",
+  },
+  {
+    name: "LOCKWOOD MK2",
+  },
+  {
+    name: "SIGNAL 50",
+  },
+
 ];
 
 var secondarysArray = [
   {
-    name: ".50 GS",
+    name: "BRUEN .45",
+  },
+  {
+    name: "X12",
+  },
+  {
+    name: "X13 AUTO",
+  },
+  {
+    name: "JOKR",
+  },
+  {
+    name: "PILA",
+  },
+  {
+    name: "RPG-7",
   },
 ];
 
@@ -177,22 +235,80 @@ function random_item() {
 
   // Call to weapon functions
   switch (randomPrimary.name) {
-    case "AK-47":
-      ak47();
+    case "KASTOV-74U":
+      kastov74u();
       break;
-    case "Kilo 141":
-      kilo141();
+    case "LACHMANN-556":
+      lachmann556();
+      break;
+      case "M16":
+      m16();
+      break;
+      case "M4":
+      m4();
+      break;
+      case "TAQ-56":
+      taq56();
+      break;
+      case "FTAC RECON":
+      ftacrecon();
+      break;
+      case "LACHMANN-762":
+      lachman762();
+      break;
+      case "FENNEC 45":
+      fennec45();
+      break;
+      case "FSS HURRICANE":
+      fsshurricane();
+      break;
+      case "LACHMANN SUB":
+      lachmannsub();
+      break;
+      case "556 ICARUS":
+      icarus556();
+      break;
+      case "RAPP H":
+      rapph();
+      break;
+      case "SAKIN MG38":
+      sakinmg38();
+      break;
+      case "EXPEDITE 12":
+      expedite12();
+      break;
+      case "LM-S":
+      lms();
+      break;
+      case "LOCKWOOD MK2":
+      lockwoodmk2();
+      break;
+      case "SIGNAL 50":
+      signal50();
       break;
   }
+  
  
 
   //-------------------------------------------------------- Secondaries
   switch (randomSecondary.name) {
-    case ".50 GS":
-      gs50();
+    case "BRUEN .45":
+      bruen45();
       break;
-    case "X16":
-      x16();
+    case "X12":
+      x12();
+      break;
+      case "X13 AUTO":
+      x13auto();
+      break;
+      case "JOKR":
+      jokr();
+      break;
+      case "PILA":
+      pila();
+      break;
+      case "RPG-7":
+      rpg7();
       break;
   }
 

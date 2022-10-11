@@ -103,10 +103,12 @@ li {
 }
 
 #primary {
+  font-size: 150%;
   max-width: 100%;
 }
 
 #secondary {
+  font-size: 150%;
   max-width: 100%;
 }
 
